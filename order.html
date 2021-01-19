@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<style media="screen">
+fieldset{width: 100%;
+        height: auto;
+        padding: 1%;}
+
+ table{width: 80%;
+      height: auto;
+      margin-left: 10%;
+      margin-right: : 10%;}
+.ReagentIMG{width: 60%;
+    height: auto;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: : 10%;
+  font-weight: bold;}
+.ReagentName{width: 20%;
+        height: auto;
+        text-align: center;
+        font-weight: bold;}
+.Quantity{width: 20%;
+      height: auto;
+    text-align: center;
+    font-weight: bold;}
+
+</style>
+  <head>
+    <meta charset="utf-8">
+    <title>시약 주문</title>
+
+  </head>
+  <body>
+    <fieldset>
+    <form class="main" action="#" method="post">
+
+      <input type="button" name="inboard" value="메인" onclick="gomain()">
+      <table border="2">
+
+      <tr>
+        <th class="ReagentIMG"> Reaent </th>
+        <th class="ReagentName"> 품명 </th>
+        <th class="Quantity"> 수량</th>
+
+      </tr>
+      <tr>
+        <td class="ReagentIMG"> <img src="../SongLim_Reagent/ALB.jpg" width="200px" height="200px" > </td>
+        <td class="ReagentName">  ALB  </td>
+        <td class="Quantity">  <input type="number" name="" value="0" maxlength="3">  </td>
+
+      </tr>
+      </table>
+
+    </form>
+  </fieldset>
+  </body>
+  <script src="../JS/main.js" charset="utf-8"></script>
+</html>
